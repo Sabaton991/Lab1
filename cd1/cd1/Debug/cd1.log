@@ -1,15 +1,16 @@
-﻿Построение начато 15.10.2019 19:35:20.
-     1>Проект "D:\Institut\Vstudio\2 семестр\cd1\cd1\cd1.vcxproj" в узле 2 (целевые объекты build).
+﻿Построение начато 16.10.2019 20:02:18.
+     1>Проект "D:\Institut\git\cd1\cd1\cd1.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
          Создание "Debug\cd1.unsuccessfulbuild", так как было задано "AlwaysCreate".
        ClCompile:
-         Для всех выходных данных обновления не требуется.
+         d:\Institut\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\cd1.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
          d:\Institut\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\cd1.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cd1.cpp
          cd1.cpp
        ManifestResourceCompile:
-         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\cd1.exe.embed.manifest.res" Debug\cd1_manifest.rc 
        Link:
-         d:\Institut\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Institut\Vstudio\2 семестр\cd1\Debug\cd1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cd1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Institut\Vstudio\2 семестр\cd1\Debug\cd1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Institut\Vstudio\2 семестр\cd1\Debug\cd1.lib" /MACHINE:X86 Debug\cd1.exe.embed.manifest.res
+         d:\Institut\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Institut\git\cd1\Debug\cd1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cd1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Institut\git\cd1\Debug\cd1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Institut\git\cd1\Debug\cd1.lib" /MACHINE:X86 Debug\cd1.exe.embed.manifest.res
          Debug\cd1.obj
          Debug\stdafx.obj
        Manifest:
@@ -17,12 +18,12 @@
          Для всех выходных данных обновления не требуется.
        LinkEmbedManifest:
          Для всех выходных данных обновления не требуется.
-         cd1.vcxproj -> D:\Institut\Vstudio\2 семестр\cd1\Debug\cd1.exe
+         cd1.vcxproj -> D:\Institut\git\cd1\Debug\cd1.exe
        FinalizeBuildStatus:
          Файл "Debug\cd1.unsuccessfulbuild" удаляется.
          Обращение к "Debug\cd1.lastbuildstate".
-     1>Построение проекта "D:\Institut\Vstudio\2 семестр\cd1\cd1\cd1.vcxproj" завершено (целевые объекты build).
+     1>Построение проекта "D:\Institut\git\cd1\cd1\cd1.vcxproj" завершено (целевые объекты build).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:00.50
+Затраченное время: 00:00:01.98

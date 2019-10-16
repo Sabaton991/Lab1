@@ -86,7 +86,20 @@ BinIn((unsigned char*)& x, sizeof(x));
 cout << "Ёто его значение: " << x << endl;
 
 _getch();
+//ѕредставление массива char[2][10]
+cout << "¬ведите массив строк " << endl;
+char mass[2][10];
+for (int i=0;i<2;i++) {
+	for(int j=0;j<10;j++) {
+cout <<  ("[") << (i+1) << ("]") << ("[") << (j+1) << ("]") << endl; 
+		cin >> mass[i][j];
+	}
+}
+BinOut((unsigned char*)& mass, sizeof(mass));
 
+cout << "¬ведите двоичное представление массива типа char[2][10] \n";
+BinIn((unsigned char*)& mass, sizeof(mass));
+cout << "Ёто его значение: " << mass << endl;
 
 
 system("pause");
