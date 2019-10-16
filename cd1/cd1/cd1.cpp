@@ -65,6 +65,28 @@ cout << "Введите двоичное представление числа типа long :" << endl;
 BinIn((unsigned char*)& n, sizeof(n));
 
 cout << "Это его значение: " << n << endl;
+// Представление вещественных чисел
+
+//двойной точности (тип double)
+
+double x;
+
+cout << "Введите число типа double: ";
+
+cin >> x;
+
+cout << "Это его двоичное представление:" << endl;
+
+BinOut((unsigned char*)& x, sizeof(x));
+
+cout << "Введите двоичное представление числа типа double:" << endl;
+
+BinIn((unsigned char*)& x, sizeof(x));
+
+cout << "Это его значение: " << x << endl;
+
+_getch();
+
 
 
 system("pause");
